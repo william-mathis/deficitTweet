@@ -32,7 +32,8 @@ $(document).ready(function () {
 		console.log("click worked");
 		$(".tweet").removeClass('visible');
 		$("#" + randoTweet()).addClass('visible');
-
+		$("html, body").animate({ scrollTop: $(document).height() }, "slow");
+		return false;
 	});
 
 	function howMany() {

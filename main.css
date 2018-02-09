@@ -78,6 +78,7 @@ table {
   margin: 0 auto;
   background: #5C3EAE;
   font-size: 3em;
+  text-align: center;
 }
 
 .attribution {
@@ -123,6 +124,7 @@ table {
 .tweetContainer {
   position: relative;
   margin: 0 auto;
+  max-width: 800px;
 }
 
 .tweet {
@@ -131,6 +133,7 @@ table {
   top: 0;
   margin: 0 auto;
   max-width: 100%;
+  left: 20%;
 }
 
 .visible {
@@ -152,6 +155,11 @@ html, body {
   /* Any adjustments for tablets and larger go here. Note these styles will be applied to anything 681px or larger -- so tablet AND desktop */
   .top {
     background-image: url(images/trump.jpg)
+  }
+  .title {
+    margin: 0 auto;
+    text-align: center;
+    left: 10%;
   }
 }
 
